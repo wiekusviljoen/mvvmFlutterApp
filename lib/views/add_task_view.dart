@@ -12,7 +12,7 @@ class AddTaskView extends StatelessWidget {
           height: 60,
           child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                  primary: viewModel.clrlvl3,
+                  backgroundColor: viewModel.clrlvl3,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20))),
               onPressed: () {},
